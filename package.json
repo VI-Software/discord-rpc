@@ -1,19 +1,19 @@
 {
-    "name": "@xhayper/discord-rpc",
+    "name": "@vi-software/discord-rpc",
     "version": "1.3.0",
-    "description": "a fork of discordjs/RPC",
+    "description": "a fork of @xmcl/discord-rpc for VI Software Launcher",
     "main": "dist/index.js",
-    "author": "xhayper",
+    "author": "VI Software",
     "license": "ISC",
     "types": "dist/index.d.ts",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/xhayper/discord-rpc.git"
+        "url": "git+https://github.com/VI-Software/discord-rpc.git"
     },
     "bugs": {
-        "url": "https://github.com/xhayper/discord-rpc/issues"
+        "url": "https://github.com/VI-Software/discord-rpc/issues"
     },
-    "homepage": "https://github.com/xhayper/discord-rpc#readme",
+    "homepage": "https://github.com/VI-Software/discord-rpc#readme",
     "keywords": [
         "typescript",
         "discord",
@@ -35,12 +35,12 @@
     },
     "devDependencies": {
         "@sapphire/ts-config": "^5.0.2",
-        "@types/node": "^20",
+        "@types/node": "^22",
         "@types/ws": "^8.18.1",
         "rimraf": "^6.1.2",
         "typescript": "^5.9.3"
     },
     "engines": {
-        "node": ">=20"
+        "node": ">=22"
     }
 }
