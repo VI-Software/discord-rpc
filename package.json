@@ -3,7 +3,7 @@
     "publishConfig": {
         "access": "public"
     },    
-    "version": "1.4.0",
+    "version": "1.4.1",
     "description": "A fork of @xmcl/discord-rpc for VI Software Launcher",
     "main": "dist/index.js",
     "author": "VI Software",
@@ -42,6 +42,9 @@
         "@types/ws": "^8.18.1",
         "rimraf": "^6.1.2",
         "typescript": "^5.9.3"
+    },
+    "overrides": {
+        "undici": "^7.18.2"
     },
     "engines": {
         "node": ">=22"
